@@ -28,9 +28,6 @@ module.exports = {
         "jhengHei": ["Microsoft JhengHei", "Helvetica Neue", "Helvetica", "Arial", "dashicons", "sans-serif"],
         "vidaloka": ["Vidaloka", "Sans-serif"]
       },
-      backgroundImage: theme => ({
-        'scissors': "url('/src/img/sid/img282.jpg')"
-      })
     },
     container: {
       center: true,

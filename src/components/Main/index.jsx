@@ -25,8 +25,7 @@ const index = (props) => {
     return (
         <ConnectedRouter history={history}>
             <div className='main flex flex-col'>
-                {/* <Route path="/" render={(props) => <Header {...props} />} /> */}
-                123
+                <Route path="/" render={(props) => <Header {...props} />} />
                 <div
                     className='flex flex-col flex-1'
                 >

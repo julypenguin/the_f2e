@@ -1,10 +1,10 @@
 import React from 'react';
 import Main from './Main';
+import '../styl/styles.css'
 
 const APP = ({ history }) => {
     return (
         <div>
-            2234
             <Main history={history} />
         </div>
     );
